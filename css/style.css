@@ -1,0 +1,30 @@
+:root{
+    --corlogo:#391716;
+    --cadet:cadetblue;
+}
+header{
+    width:auto;
+    height: 100px;
+    background-color: cadetblue ;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h1{
+    color:white;
+    font-weight: bold;
+    margin-top:auto;
+    margin-bottom: auto;
+}
+header img{
+    width: 100px;
+    border-radius: 50%;
+    padding:5px;
+    margin-right:5px;
+}
+.nav-item a{
+    color:white;
+    font-weight: bold;
+}
+
+
