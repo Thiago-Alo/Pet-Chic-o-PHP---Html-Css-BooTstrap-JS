@@ -2,6 +2,9 @@
     --corlogo:#391716;
     --cadet:rgb(85, 126, 128);
 }
+body{
+    cursor: url('/img/cursospatapq1.png'), auto;
+}
 header{
     width:auto;
     height: 100px;
@@ -44,6 +47,7 @@ header img{
 .dicas{
     border: 2px solid red;
     box-sizing:content-box;
+    
 }
 .carousel-caption{
     color:black;
@@ -80,7 +84,8 @@ h5{
     left: -20px;
     opacity: 1;
     font-size: 15px;
-    padding:10px;
+    padding:10px;	
+    cursor: url('/img/cursospatapq.png'), auto;
 }
 .tri-right.border.left-top:before {
 	content: ' ';
