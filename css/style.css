@@ -38,14 +38,77 @@ header img{
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .dicas{
-    margin-top:20px;
-    border-top: 3px dashed black;
+    border: 2px solid red;
+    box-sizing:content-box;
 }
+.carousel-caption{
+    color:black;
+    height: 100%;
+}
+.carousel-caption p{
+    color:black;
+}
+ol{
+    list-style: none;
+}
+h5{
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.talk-bubble {
+	margin: 20px;
+    display: inline-block;
+    position: relative;
+	width: 200px;
+	height: auto;
+	background-color: transparent;
+    opacity:0;
+}
+.talk-bubble:hover {
+	margin: 20px;
+    display: inline-block;
+    position: relative;
+	width: 200px;
+	height: auto;
+	background-color: white;
+    opacity:1;
+    transition-delay: 1s;
+    left: -20px;
+    opacity: 1;
+    font-size: 15px;
+    padding:10px;
+}
+.tri-right.border.left-top:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+    left: -40px;
+	right: auto;
+    top: -8px;
+	bottom: auto;
+	border: 32px solid;
+	border-color: black transparent transparent transparent;
+}
+.tri-right.left-top:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+    left: -20px;
+	right: auto;
+    top: 0px;
+	bottom: auto;
+	border: 22px solid;
+	border-color: black transparent transparent transparent;
+}
+
 .meio{
     width:60%;
-    background-color: blue;
     border:2px solid black;
     text-align: center;
 }
