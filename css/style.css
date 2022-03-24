@@ -9,8 +9,39 @@
 body{
     cursor: url('/img/cursospatapq1.png'), auto;
     font-family: 'Lora', serif;
+}
+/*INDEX GATINHO FDP*/
+.gatinho{
+    height:600px;
 
 }
+.pai-vizinho{
+    position:relative; 
+    top:0px; 
+    left:0px;
+    z-index: 0;
+}
+.primo{
+    position:absolute; 
+    top:200px; 
+    right: 400px;
+    text-align: center;
+    z-index: 1;
+}
+.btnverm:hover{
+    cursor:url('/img/cursorfaca.png'), auto;
+}
+.btnverd:hover{
+    cursor: url('/img/catpawpq-removebg-preview.png'), auto;
+}
+.btnverd{
+    background-color: green;
+    margin-right:250px;
+}
+.btnverm{
+    background-color: red;
+}
+/*INDEX GATINHO FDP*/
 body p{
     text-align: justify;
 }
@@ -18,6 +49,17 @@ header{
     width:100%;
     background-color: var(--cadet) ;
     text-align: center;
+}
+.btn-fa-solid{
+    font-size: 30px;
+    margin-left:15px;
+    background-color: transparent;
+    color:aliceblue;
+}
+.btn-fa-solid:hover{
+    background-color: aliceblue;
+    color: var(--cadet);
+    cursor: url('/img/cursormoney.png'), auto;
 }
 h1{
     color:white;
@@ -34,6 +76,24 @@ header img{
     color:white;
     font-weight: bold;
     padding:5px;
+}
+.nav-link:hover{
+    cursor: url('/img/cursospatapq.png'), auto;
+}
+.btn{
+    background-color: aliceblue;
+    color: var(--cadet);
+    font-family:'Lora', serif; 
+}
+.btn:hover{
+    cursor: url('/img/cursospatapq.png'), auto;
+    background-color: var(--corlogo);
+    color:aliceblue;
+}
+#exampleModalLabel{
+    color:#391716;
+    font-family:'Lora', serif; 
+
 }
 .main{
     width: auto;
@@ -60,6 +120,9 @@ header img{
 ol{
     list-style: none;
 }
+.animais a{
+    text-decoration:none;
+}
 h5{
     font-size:20px;
     font-family: 'Lora', serif;
@@ -78,6 +141,7 @@ h5{
     right:75px;
     opacity:0;
 }
+
 .filho:hover{
     opacity:1;
     cursor: url('/img/cursospatapq.png'), auto;
@@ -124,7 +188,7 @@ h5{
     border-radius:20%;
     margin-top:15px;
 }
-.carousel-inner:hover{
+.carousel-inner a:hover{
     cursor: url('/img/cursospatapq.png'), auto;
 }
 .carousel-control-prev:hover{
