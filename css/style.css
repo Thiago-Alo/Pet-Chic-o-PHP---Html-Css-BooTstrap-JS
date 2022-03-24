@@ -1,14 +1,15 @@
 
 /*PADRAO GERAL*/
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap'););
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
 :root{
     --corlogo:#391716;
-    --cadet:rgb(85, 126, 128);
+    --cadet:#041E1B;
 }
 body{
     cursor: url('/img/cursospatapq1.png'), auto;
     font-family: 'Lora', serif;
+
 }
 body p{
     text-align: justify;
@@ -16,7 +17,7 @@ body p{
 header{
     width:100%;
     height: 100px;
-    background-color: rgb(85, 126, 128) ;
+    background-color: var(--cadet) ;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -39,7 +40,6 @@ header img{
 }
 .main{
     width: auto;
-    height: 600px;
 }
 /*LADO ESQUERDO - ANIMAIS E CUIDADOS*/
 .ld-esquerdo{
@@ -48,10 +48,12 @@ header img{
     flex-direction: column;
     text-align: center;
     justify-content: space-around;
+    background-color: var(--cadet);
 }
 .animais i{
     font-size:30px;
     padding:4px;
+    color:aliceblue;
 }
 .animais img{
     height:40px;
@@ -65,6 +67,7 @@ h5{
     font-size:20px;
     font-family: 'Lora', serif;
     font-weight: 700;
+    color:aliceblue;
 }
 .pai{
     position:relative; 
@@ -93,110 +96,92 @@ h5{
 }
 .dicas{
     width: 100%;
-    box-shadow: 2px 5px 5px var(--cadet);
+    box-shadow: 1px 1px 15px white;
     cursor: url('/img/cursospatapq.png'), auto;
+    margin-left:5px;
 }
 .dicas p{
     text-align: center;
     height: 100%;
+    font-weight:600;
+    font-family: 'Lora', serif;
 }
 .card{
     height:300px;
 }
-/*.talk-bubble {
-	margin: 20px;
-    display: inline-block;
-    position: relative;
-	width: 200px;
-	height: auto;
-	background-color: transparent;
-    opacity:0;
-}
-.talk-bubble:hover {
-	margin: 20px;
-    display: inline-block;
-    position: relative;
-	width: 200px;
-	height: auto;
-	background-color: white;
-    opacity:1;
-    transition-delay: 1s;
-    left: -20px;
-    opacity: 1;
-    font-size: 15px;
-    padding:10px;	
-    cursor: url('/img/cursospatapq.png'), auto;
-}
-.tri-right.border.left-top:before {
-	content: ' ';
-	position: absolute;
-	width: 0;
-	height: 0;
-    left: -40px;
-	right: auto;
-    top: -8px;
-	bottom: auto;
-	border: 32px solid;
-	border-color: black transparent transparent transparent;
-}
-.tri-right.left-top:after{
-	content: ' ';
-	position: absolute;
-	width: 0;
-	height: 0;
-    left: -20px;
-	right: auto;
-    top: 0px;
-	bottom: auto;
-	border: 22px solid;
-	border-color: black transparent transparent transparent;
-}*/
 
 /*MEIO - PROMOÇÕES*/
 .meio{
     width:60%;
     text-align: center;
-    background-color: rgb(85, 126, 128);
+    background-color: var(--cadet);
 }
-
 .meio h2{
-    font-family: 'Hurricane', cursive;
     font-weight:900;
     font-size:40px;
     color: rgb(255, 255, 255);
+    margin-top:20px;
 }
-
+.radios{
+    box-shadow: 1px 1px 15px white;
+    border-radius:50%;
+}
+.carousel-inner:hover{
+    cursor: url('/img/cursospatapq.png'), auto;
+}
+.carousel-control-prev:hover{
+    cursor: url('/img/catpawpq-removebg-preview.png'), auto;
+}
+.carousel-control-next:hover{
+    cursor: url('/img/catpawpq-removebg-preview.png'), auto;
+}
 /*LADO DIREITO - PRODUTOS*/
 .ld-direito{
     width: 20%;
-    background-color: rgb(85, 126, 128);
+    background-color: var(--cadet);
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
+    justify-content:space-evenly ;
+    color: aliceblue;
+    font-weight:900;
+    font-size:20px;
+    color: rgb(255, 255, 255);
 }
 .ld-direito img{
-    height: 70px;
+
     width: 90%;
-    margin:15px;
+    margin:5px;
     background-color: white;
+    border-radius: 15%;
+    background-color: transparent;
 }
-
-.ld-direito h2 {
-    font-family: ;
+.contatos{
+    padding-top:120px;
 }
-
-
 
 /*FOOTER - PARCEIROS*/
 footer{
     text-align: center;
+    font-weight:900;
+    font-size:40px;
+    color: aliceblue;
+    background-color: var(--cadet);
+}
+.footim{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
 }
 footer img{
+    
     padding: 10px;
-    border: 2px solid black;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+}
+footer img:hover{
+    cursor:url('/img/cursospatapq.png'), auto;
 }
 
 
