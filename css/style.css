@@ -5,6 +5,9 @@
 body{
     cursor: url('/img/cursospatapq1.png'), auto;
 }
+body p{
+    text-align: justify;
+}
 header{
     width:auto;
     height: 100px;
@@ -31,27 +34,28 @@ header img{
 }
 .main{
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    height: 500px;
+    height: 600px;;
 }
 .ld-esquerdo{
     width: 20%;
-    background-color: pink;
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: space-around;
+}
+.animais{
+    margin-top: 20p;
 }
 .dicas{
-    border: 2px solid red;
-    box-sizing:content-box;
-    
+    width: 100%;
+    box-shadow: 2px 2px 2px black;
+}
+.dicas p{
+    text-align: justify;
+    height: 100%;
 }
 .carousel-caption{
     color:black;
-    height: 100%;
 }
 .carousel-caption p{
     color:black;
@@ -63,7 +67,7 @@ h5{
     font-size:20px;
     font-family:Arial, Helvetica, sans-serif;
 }
-.talk-bubble {
+/*.talk-bubble {
 	margin: 20px;
     display: inline-block;
     position: relative;
@@ -110,12 +114,12 @@ h5{
 	bottom: auto;
 	border: 22px solid;
 	border-color: black transparent transparent transparent;
-}
+}*/
 
 .meio{
     width:60%;
-    border:2px solid black;
     text-align: center;
+    background-color: green;
 }
 .ld-direito{
     width: 20%;
