@@ -16,11 +16,8 @@ body p{
 }
 header{
     width:100%;
-    height: 100px;
     background-color: var(--cadet) ;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
+    text-align: center;
 }
 h1{
     color:white;
@@ -101,13 +98,13 @@ h5{
     margin-left:5px;
 }
 .dicas p{
-    text-align: center;
+    text-align: justify;
     height: 100%;
     font-weight:600;
     font-family: 'Lora', serif;
 }
 .card{
-    height:300px;
+    height:400px;
 }
 
 /*MEIO - PROMOÇÕES*/
@@ -124,7 +121,8 @@ h5{
 }
 .radios{
     box-shadow: 1px 1px 15px white;
-    border-radius:50%;
+    border-radius:20%;
+    margin-top:15px;
 }
 .carousel-inner:hover{
     cursor: url('/img/cursospatapq.png'), auto;
@@ -150,17 +148,15 @@ h5{
     color: rgb(255, 255, 255);
 }
 .ld-direito img{
-
     width: 90%;
     margin:5px;
     background-color: white;
     border-radius: 15%;
     background-color: transparent;
 }
-.contatos{
-    padding-top:120px;
+.ld-direito img, .ld-direito i{
+    cursor: url('/img/cursospatapq.png'), auto;
 }
-
 /*FOOTER - PARCEIROS*/
 footer{
     text-align: center;
