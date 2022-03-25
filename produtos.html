@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">  
 </head>
-<body>
+<body> 
     <header>
         <img  src="img/logojunto-removebg-preview.png" alt="Logo Pet Chicão" title="Pet Chicão"> 
         
@@ -26,9 +26,6 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" aria-current="page" href="produtos.html">Produtos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="promocoes.html">Promoções</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="home.html">Contactos</a>
@@ -48,11 +45,12 @@
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">TESTE</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Em Construção</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
                         <p>A sua loja estará disponivel em breve!</p>
+                        <img src="img/construindo-removebg-preview.png" alt="">
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn" data-bs-dismiss="modal">Fechar</button>
@@ -68,73 +66,149 @@
           </div>
         </nav>
     </header>
-    <main class="container p-3 mb-3 shadow rounded">
-
+    <main class="container p-3">
       <!--div.row>div.col*6-->
-     <div class="row">
+     <div id="container-produtos" class="row">
        <div class="col-12 col-md-6 col-lg-4 mb-1">
          <div class="card mx-auto" style="width: 18rem;">
-          <img src="img/produtos/catfood.png" class="card-img-top" alt="...">
+          <img class ="produtos" src="img/produtos/catfood.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Comida de Gato</h5>
-            <p class="card-text">TBA</p>
-            <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            <p class="card-text">&euro;13,50</p>
+            <button class="btn-prod w-75" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Adicionar ao carrinho</button>
+              <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                <div class="offcanvas-header">
+                  <h5 class="card-title" id="offcanvasBottomLabel">Adicionar ao carrinho</h5>
+                  <button class="btn-prod" type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body text-center" style="font-size: 20px;">
+                  <img width="100px" src="img/construindo-removebg-preview.png" alt="">
+                  Adicionar com sucesso ao carrinho está em construção!
+                  <img width="100px" src="img/construindo-removebg-preview.png" alt="">
+                </div>
+              </div>
           </div>
         </div>
        </div>
        <div class="col-12 col-md-6 col-lg-4 mb-1">
          <div class="card mx-auto" style="width: 18rem;">
-          <img src="img/produtos/racao.jpg" class="card-img-top" alt="...">
+          <img class ="produtos" src="img/produtos/racao.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Comida de Cão</h5>
-            <p class="card-text">TBA</p>
-            <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            <p class="card-text">&euro;17,50</p>
+            <button class="btn-prod w-75" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Adicionar ao carrinho</button>
+              <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                <div class="offcanvas-header">
+                  <h5 class="card-title" id="offcanvasBottomLabel">Adicionar ao carrinho</h5>
+                  <button class="btn-prod" type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body text-center" style="font-size: 20px;">
+                  <img width="100px" src="img/construindo-removebg-preview.png" alt="">
+                  Adicionar com sucesso ao carrinho está em construção!
+                  <img width="100px" src="img/construindo-removebg-preview.png" alt="">
+                </div>
+              </div>
           </div>
         </div>
        </div>
        <div class="col-12 col-md-6 col-lg-4 mb-1">
          <div class="card mx-auto" style="width: 18rem;">
-          <img src="img/Promoções/acana.jpg" class="card-img-top" alt="...">
+          <img class ="produtos" src="img/Promoções/acana.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">ACANA PROMO</h5>
-            <p class="card-text">TBA</p>
-            <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            <h5 class="card-title">ACANA PROMO<span class="badge rounded-pill bg-danger m-2">-30%</span></h5>
+            <p class="card-text">&euro;23,50</p>
+            <button class="btn-prod w-75" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Adicionar ao carrinho</button>
+              <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                <div class="offcanvas-header">
+                  <h5 class="card-title" id="offcanvasBottomLabel">Adicionar ao carrinho</h5>
+                  <button class="btn-prod" type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body text-center" style="font-size: 20px;">
+                  <img width="100px" src="img/construindo-removebg-preview.png" alt="">
+                  Adicionar com sucesso ao carrinho está em construção!
+                  <img width="100px" src="img/construindo-removebg-preview.png" alt="">
+                </div>
+              </div>
           </div>
         </div>
        </div>
        <div class="col-12 col-md-6 col-lg-4 mb-1">
          <div class="card mx-auto" style="width: 18rem;">
-          <img src="img/Promoções/turtle.jpg" class="card-img-top" alt="...">
+          <img class ="produtos" src="img/Promoções/turtle.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Comida de Tartaruga</h5>
-            <p class="card-text">TBA</p>
-            <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            <p class="card-text">&euro;10,80</p>
+            <button class="btn-prod w-75" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Adicionar ao carrinho</button>
+              <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                <div class="offcanvas-header">
+                  <h5 class="card-title" id="offcanvasBottomLabel">Adicionar ao carrinho</h5>
+                  <button class="btn-prod" type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body text-center" style="font-size: 20px;">
+                  <img width="100px" src="img/construindo-removebg-preview.png" alt="">
+                  Adicionar com sucesso ao carrinho está em construção!
+                  <img width="100px" src="img/construindo-removebg-preview.png" alt="">
+                </div>
+              </div>
           </div>
         </div>
        </div>
        <div class="col-12 col-md-6 col-lg-4 mb-1">
          <div class="card mx-auto" style="width: 18rem;">
-          <img src="img/produtos/comida-rato.jpg.opdownload" class="card-img-top" alt="...">
+          <img class ="produtos" src="img/produtos/comida-rato.jpg.opdownload" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Comida de Rato</h5>
-            <p class="card-text">TBA</p>
-            <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            <p class="card-text">&euro;5,50</p>
+            <button class="btn-prod w-75" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Adicionar ao carrinho</button>
+              <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                <div class="offcanvas-header">
+                  <h5 class="card-title" id="offcanvasBottomLabel">Adicionar ao carrinho</h5>
+                  <button class="btn-prod" type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body text-center" style="font-size: 20px;">
+                  <img width="100px" src="img/construindo-removebg-preview.png" alt="">
+                  Adicionar com sucesso ao carrinho está em construção!
+                  <img width="100px" src="img/construindo-removebg-preview.png" alt="">
+                </div>
+              </div>
           </div>
         </div>
        </div>
        <div class="col-12 col-md-6 col-lg-4 mb-1">
          <div class="card mx-auto" style="width: 18rem;">
-          <img src="img/produtos/saudavel.jpg" class="card-img-top" alt="...">
+          <img class ="produtos" src="img/produtos/saudavel.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Ração Saudável</h5>
-            <p class="card-text">TBA</p>
-            <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            <p class="card-text">&euro;37,00</p>
+            <button class="btn-prod w-75" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Adicionar ao carrinho</button>
+              <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                <div class="offcanvas-header">
+                  <h5 class="card-title" id="offcanvasBottomLabel">Adicionar ao carrinho</h5>
+                  <button class="btn-prod" type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body text-center" style="font-size: 20px;">
+                  <img width="100px" src="img/construindo-removebg-preview.png" alt="">
+                  Adicionar com sucesso ao carrinho está em construção!
+                  <img width="100px" src="img/construindo-removebg-preview.png" alt="">
+                </div>
+              </div>
           </div>
         </div>
        </div>
      </div>
   </main>
-<body>
-
+  <!--FOOTER, PARCEIROS-->
+  <footer class="row">
+    <div class="footim col-7 col-sm-12 col-md-12 col-lg-12">
+      <div class="parceiros cursor">
+        <h3>Nossos parceiros:</h3>
+        <img src="img/parceiros/adopte.png" alt="Adopte title="Adopte"><a href="https://www.adopta-me.org/"></a></img>
+        <img src="img/parceiros/logo-advance.jpg" alt="Advance"><a href="https://www.advance-affinity.com/pt/gato?gclid=CjwKCAjwrfCRBhAXEiwAnkmKmRkAaVpQthVv0sIbhTQ2Ru7l5dRSxkXVMrq8IbnIDofCk4Z7YP3zQxoCusAQAvD_BwE&gclsrc=aw.ds"></a></img>
+        <img src="img/parceiros/purina.webp" alt="Purina"><a href="https://www.purina.pt/?gclid=CjwKCAjwrfCRBhAXEiwAnkmKmR8B6NX5CVHxlDSnO9TSHHA9setXBqvx0uo3iTRGXGjSGuv32BYOKxoCdhIQAvD_BwE"></a></img>
+        <img src="img/parceiros/zoothopia.jpg" alt="Zoothopia"><a href="https://zoothopia.pt/"></a></img>
+      </div>
+    </div>
+  </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
