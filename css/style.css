@@ -11,11 +11,17 @@ body{
     font-family: 'Lora', serif;
 }
 /*INDEX GATINHO FDP*/
-.gatinho{
-    height:600px;
-
+#bgato{
+    background: url("/img/cachorro-humano-07.webp");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
+    background-position:center;
 }
-.pai-vizinho{
+.gatinho{
+    height: 1000px;
+}
+/*.pai-vizinho{
     position:relative; 
     top:0px; 
     left:0px;
@@ -27,19 +33,56 @@ body{
     right: 400px;
     text-align: center;
     z-index: 1;
+}*/
+fieldset{
+    position: sticky;
+    top:40%;
+}
+form{
+    background-color: transparent;
+    color:aliceblue;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    font-weight: 900;
+    color:aliceblue;
+}
+.butaozim{
+    margin:5px;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+form>input{
+    width: 20%;
 }
 .btnverm:hover{
     cursor:url('/img/cursorfaca.png'), auto;
+    background: url("/img/gifcao1.gif");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 200px;
 }
 .btnverd:hover{
     cursor: url('/img/catpawpq-removebg-preview.png'), auto;
 }
 .btnverd{
-    background-color: green;
-    margin-right:250px;
+    background-color: var(--cadet);
+    width: 200px;
+    color:aliceblue;
+    font-weight: bold;
+    border-radius:5px;
+    margin-right: 5px;
 }
 .btnverm{
-    background-color: red;
+    background-color:var(--corlogo);
+    width: 220px;
+    color:aliceblue;
+    font-weight: bold;
+    border-radius:5px;
 }
 /*INDEX GATINHO FDP*/
 body p{
