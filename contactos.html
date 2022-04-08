@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Pet Chicão</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/faviconlogo.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">  
+    <link rel="stylesheet" href="css/stylecontactos.css">
+</head>
+<body> 
+    <header>
+        <img  src="img/logojunto-removebg-preview.png" alt="Logo Pet Chicão" title="Pet Chicão"> 
+        
+        <nav class="navbar navbar-expand-lg navbar-dark m-auto m-2 p-1">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="home.html">Página inicial</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" aria-current="page" href="produtos.html">Produtos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contactos.html">Contactos</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="O que estás á procura?" aria-label="Search">
+                <button class="btn" type="submit">Pesquisar</button>
+                
+                <!-- Button trigger modal -->
+                <button type="button" class="btn-fa-solid" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Em Construção</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>A sua loja estará disponivel em breve!</p>
+                        <img src="img/construindo-removebg-preview.png" alt="">
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn" data-bs-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn">Ok!</button>
+              
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </form>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <div class="tiara">
+      <form id="formteste" action="" method="post">
+        <h1>Contacto</h1>
+        <p class="nome">
+            <input type="text" name="nome" placeholder="Informe seu nome" required="required">
+        </p>
+        
+        <p class="email">
+            <input type="email" name="email" placeholder="Informe seu email" requirid="requerid">
+        </p>
+
+        <p class="assunto">
+            <input type="text" name="assunto" placeholder="Informe o assunto" required>
+        </p>
+
+        <p class="telefone">
+            <input type="número" placeholder="Informe seu telefone" required="required">
+        </p>
+      
+        <p class="mensagem">
+            <textarea name="mensagem" placeholder="Deixe sua mensagem"></textarea>
+        </p>
+
+        <p class="enviar">
+            <input type="submit" name="enviar" value="Enviar">
+        </p>
+        
+    </form>
+        <div class="contact-right">
+          <h3>Contacte-nos</h3>
+             <p>  Envie-nos um Email: petchicao@petchicao.pt</p>
+             <p>Telefone: 214967709</p>
+             <p>Morada: R. de Ciríaco Cardoso 186, 4150-212 Porto</p>
+  
+      </div>
+        <div class="contact-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.901039074213!2d-8.652451284581316!3d41.15851067928588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd246582df7d8785%3A0xc967e42932cd22b4!2sCESAE%20-%20Centro%20de%20Servi%C3%A7os%20e%20Apoio%20%C3%A0s%20Empresas!5e0!3m2!1spt-PT!2spt!4v1648671271232!5m2!1spt-PT!2spt" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+      
+      
+
+    </div>
+
+    <footer class="row">
+        <div class="footim col-7 col-sm-12 col-md-12 col-lg-12">
+          <div class="parceiros cursor">
+            <h3>Nossos parceiros:</h3>
+            <img src="img/parceiros/adopte.png" alt="Adopte title="Adopte"><a href="https://www.adopta-me.org/"></a></img>
+            <img src="img/parceiros/logo-advance.jpg" alt="Advance"><a href="https://www.advance-affinity.com/pt/gato?gclid=CjwKCAjwrfCRBhAXEiwAnkmKmRkAaVpQthVv0sIbhTQ2Ru7l5dRSxkXVMrq8IbnIDofCk4Z7YP3zQxoCusAQAvD_BwE&gclsrc=aw.ds"></a></img>
+            <img src="img/parceiros/purina.webp" alt="Purina"><a href="https://www.purina.pt/?gclid=CjwKCAjwrfCRBhAXEiwAnkmKmR8B6NX5CVHxlDSnO9TSHHA9setXBqvx0uo3iTRGXGjSGuv32BYOKxoCdhIQAvD_BwE"></a></img>
+            <img src="img/parceiros/zoothopia.jpg" alt="Zoothopia"><a href="https://zoothopia.pt/"></a></img>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
