@@ -1,0 +1,78 @@
+/*CONTACTOS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   width: 100%; 
+}
+.tiara{
+    display:flex;   
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+#formteste{
+    font-size: 16px;
+    background-color: #2F4F4F;
+    width: auto;
+    margin: 0 auto;
+    padding: 0 10px 10px 10px;
+}
+.contact-right{
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}   
+.contact-map{
+    width: 30%;
+    height: auto;
+}
+input, textarea{
+    width: 470px;
+    padding: 10px;
+}
+.enviar input{
+    background: #069;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1 px solid;
+    color: #FFF;
+    cursor: pointer;
+}
+.enviar input:hover{
+    background: #078;
+    
+}
+.textarea{
+    width: 470px;
+    height: 120px;
+    line-height: 20px;
+}
+.contact-map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:690px){
+    .tiara{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+    }
+    #formteste{
+        width:100%;
+    }
+    input{
+        width:100%;
+    }
+    .enviar{
+        margin-left:30%;
+    }
+}
+

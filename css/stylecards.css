@@ -118,9 +118,9 @@
 }
 
 /* make responsive */
-@media (max-width: 991px){
+@media (max-width: 973px){
     .newcard{
-        width:auto;
+        width:280px;;
         max-width:350px;
         align-items:flex-start;
     }
@@ -129,14 +129,18 @@
     }
     .newcard:hover .product_img{
         top:initial;
-        bottom:30px;
+        bottom:20px;
         left:50%;
         transform: translate(-50%, 10%) scale(1);
-        height: 300px;
+        height: 220px;
     }
     .newcard .content{
         width:100%;
         padding:40px;
+    }
+    .row{
+        padding-left: 10%;
+
     }
 }
 .teste{
