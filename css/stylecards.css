@@ -75,6 +75,7 @@
     height: 350px;
     visibility:visible;
     transition-delay:0.5s;
+    cursor: url('/img/cursospatapq.png'), auto;
 }
 .content h2{
     color:aliceblue;
@@ -83,7 +84,7 @@
 }
 .content p{
     color:aliceblue;
-   
+    
 }
 .content a{
     position:relative;
@@ -110,6 +111,12 @@
     transform: translate(-50%,-50%) scale(1); 
     transition-delay:0.5s;
 }
+.newcard:hover a{
+    display: absolute;
+    top: 40%;
+    cursor: url('/img/cursospatapq.png'), auto;
+}
+
 /* make responsive */
 @media (max-width: 991px){
     .newcard{
