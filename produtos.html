@@ -8,6 +8,7 @@
     <title>Pet Chicão</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/faviconlogo.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/stylecards.css">
     <link rel="stylesheet" href="css/style.css">  
 </head>
 <body> 
@@ -65,136 +66,36 @@
           </div>
         </nav>
     </header>
-    <main class="container p-3">
+    <main>
       <!--div.row>div.col*6-->
-     <div id="container-produtos" class="row">
-       <div class="col-12 col-md-6 col-lg-4 mb-1">
-         <div class="card mx-auto" style="width: 18rem;">
-          <img class ="produtos" src="img/produtos/catfood.jpg" class="card-img-top"  alt="Comida de gato">
-          <div class="card-body">
-            <h5 class="card-title">Comida de Gato</h5>
-            <p class="card-text">&euro;13,50</p>
-            <button class="btn-prod w-75" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Adicionar ao carrinho</button>
-              <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
-                <div class="offcanvas-header">
-                  <h5 class="card-title" id="offcanvasBottomLabel">Adicionar ao carrinho</h5>
-                  <button class="btn-prod" type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body text-center" style="font-size: 20px;">
-                  <img width="100px" src="img/construindo-removebg-preview.png" alt="">
-                  Adicionar com sucesso ao carrinho está em construção!
-                  <img width="100px" src="img/construindo-removebg-preview.png" alt="">
-                </div>
-              </div>
+
+      <div class="row">
+        <div class="newcard">
+          <div class="circle">
+              <img class="logo" src="img/comida_logo-removebg-preview.png" >
           </div>
-        </div>
-       </div>
-       <div class="col-12 col-md-6 col-lg-4 mb-1">
-         <div class="card mx-auto" style="width: 18rem;">
-          <img class ="produtos" src="img/produtos/racao.jpg" class="card-img-top"  alt="Comida de cão">
-          <div class="card-body">
-            <h5 class="card-title">Comida de Cão</h5>
-            <p class="card-text">&euro;17,50</p>
-            <button class="btn-prod w-75" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Adicionar ao carrinho</button>
-              <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
-                <div class="offcanvas-header">
-                  <h5 class="card-title" id="offcanvasBottomLabel">Adicionar ao carrinho</h5>
-                  <button class="btn-prod" type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body text-center" style="font-size: 20px;">
-                  <img width="100px" src="img/construindo-removebg-preview.png" alt="">
-                  Adicionar com sucesso ao carrinho está em construção!
-                  <img width="100px" src="img/construindo-removebg-preview.png" alt="">
-                </div>
-              </div>
+          <div class="content">
+              <h2>Nome ração</h2>
+              <p>descrição raçao</p>
+              <p>&euro;39,90</p>
+              <a href="#">Já pro carrinho</a>
           </div>
-        </div>
-       </div>
-       <div class="col-12 col-md-6 col-lg-4 mb-1">
-         <div class="card mx-auto" style="width: 18rem;">
-          <img  class="produtos" src="img/Promoções/acana.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Acana Promo<span class="badge rounded-pill bg-danger ">-30%</span></h5>
-            <p class="card-text"><s>&euro;23,50</s> por &euro;16,45</p>
-            <button class="btn-prod w-75" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Adicionar ao carrinho</button>
-              <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
-                <div class="offcanvas-header">
-                  <h5 class="card-title" id="offcanvasBottomLabel">Adicionar ao carrinho</h5>
-                  <button class="btn-prod" type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body text-center" style="font-size: 20px;">
-                  <img width="100px" src="img/construindo-removebg-preview.png" alt="">
-                  Adicionar com sucesso ao carrinho está em construção!
-                  <img width="100px" src="img/construindo-removebg-preview.png" alt="">
-                </div>
-              </div>
+          <img class="product_img" src="/img/cachorro_racao.jpg-removebg-preview.png" alt="">
+      </div>
+      <div class="newcard">
+          <div class="circle">
+              <img class="logo" src="img/gatp_logo-removebg-preview.png" >
           </div>
-        </div>
-       </div>
-       <div class="col-12 col-md-6 col-lg-4 mb-1">
-         <div class="card mx-auto" style="width: 18rem;">
-          <img  class="produtos" src="img/Promoções/turtle.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title" style="margin-top:25px;">Comida de Tartaruga</h5>
-            <p class="card-text">&euro;10,80</p>
-            <button class="btn-prod w-75" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Adicionar ao carrinho</button>
-              <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
-                <div class="offcanvas-header">
-                  <h5 class="card-title" id="offcanvasBottomLabel">Adicionar ao carrinho</h5>
-                  <button class="btn-prod" type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body text-center" style="font-size: 20px;">
-                  <img width="100px" src="img/construindo-removebg-preview.png" alt="">
-                  Adicionar com sucesso ao carrinho está em construção!
-                  <img width="100px" src="img/construindo-removebg-preview.png" alt="">
-                </div>
-              </div>
+          <div class="content">
+              <h2>PetChicão - Cats</h2>
+              <p>descrição raçao</p>
+              <p>&euro;39,90</p>
+              <a href="#">Já pro carrinho</a>
           </div>
-        </div>
-       </div>
-       <div class="col-12 col-md-6 col-lg-4 mb-1">
-         <div class="card mx-auto" style="width: 18rem;">
-          <img class ="produtos" src="img/produtos/comida-rato.jpg.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Comida de Rato</h5>
-            <p class="card-text">&euro;5,50</p>
-            <button class="btn-prod w-75" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Adicionar ao carrinho</button>
-              <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
-                <div class="offcanvas-header">
-                  <h5 class="card-title" id="offcanvasBottomLabel">Adicionar ao carrinho</h5>
-                  <button class="btn-prod" type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body text-center" style="font-size: 20px;">
-                  <img width="100px" src="img/construindo-removebg-preview.png" alt="">
-                  Adicionar com sucesso ao carrinho está em construção!
-                  <img width="100px" src="img/construindo-removebg-preview.png" alt="">
-                </div>
-              </div>
-          </div>
-        </div>
-       </div>
-       <div class="col-12 col-md-6 col-lg-4 mb-1">
-         <div class="card mx-auto" style="width: 18rem;">
-          <img class ="produtos" src="img/produtos/saudavel.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Ração Saudável</h5>
-            <p class="card-text">&euro;37,00</p>
-            <button class="btn-prod w-75" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Adicionar ao carrinho</button>
-              <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
-                <div class="offcanvas-header">
-                  <h5 class="card-title" id="offcanvasBottomLabel">Adicionar ao carrinho</h5>
-                  <button class="btn-prod" type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body text-center" style="font-size: 20px;">
-                  <img width="100px" src="img/construindo-removebg-preview.png" alt="">
-                  Adicionar com sucesso ao carrinho está em construção!
-                  <img width="100px" src="img/construindo-removebg-preview.png" alt="">
-                </div>
-              </div>
-          </div>
-        </div>
-       </div>
-     </div>
+          <img class="product_img" src="img/gato_racao-removebg-preview.png" alt="">
+      </div>
+      </div>
+
   </main>
   <!--FOOTER, PARCEIROS-->
   <footer class="row">
