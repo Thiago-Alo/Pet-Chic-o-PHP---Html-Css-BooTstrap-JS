@@ -12,7 +12,7 @@ body{
 }
 /*INDEX GATINHO FDP*/
 #bgato{
-    background: url("/img/cachorro-humano-07.webp");
+    background: url("../img/cachorro-humano-07.webp");
     background-repeat: no-repeat;
     background-size:cover;
     height: 100%;
