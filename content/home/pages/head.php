@@ -11,5 +11,6 @@
     <link rel="stylesheet" href="CSS/stylecards.css"> 
     <link rel="stylesheet" href="CSS/stylecontactos.css"> 
     <link rel="stylesheet" href="CSS/style.css">  
+    <link rel="stylesheet" href="css/styleform.css">
   
 </head>
