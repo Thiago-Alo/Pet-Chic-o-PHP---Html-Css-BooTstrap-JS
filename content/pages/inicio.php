@@ -1,12 +1,12 @@
-<!--id="fundo"-->
-<!--SECTION ESQUERDA, ANIMAIS E CUIDADOS-->
-<div class="ld-esquerdo">
+<main id="fundo" class="main row">
+      <!--SECTION ESQUERDA, ANIMAIS E CUIDADOS-->
+      <div class="ld-esquerdo">
         <!--ANIMAIS-->
         <div class="animais">
-          <a href="produtos.php">
+          <a href="produtos.html">
           <ol>
             <li>
-              <div class="pai"><a href="produtos.php"><i class="fa-solid fa-dog"><h5>Cães</h5>
+              <div class="pai"><a href="produtos.html"><i class="fa-solid fa-dog"><h5>Cães</h5>
                 <div class="filho"><img src="img/Fotos vets/gifcao2.gif" alt="Dog" title="                Dogs"></div>
                 </i>
               </div>
@@ -84,3 +84,47 @@
           </div>
         </div>
       </section>
+      <!--MEIO - PROMOÇÕES-->
+      <div class="meio">
+        <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+          <div class="carousel-inner radios">
+            <div class="carousel-item active">
+              <a href="promocoes.html">
+              <img src="img/Promoções/acana.jpg" height="750" width="750" class="d-block w-100" alt="..."><body>
+              </body>
+              </html>
+            </div>
+            <div class="carousel-item">
+              <a href="promocoes.html">
+              <img src="img/Promoções/turtle.jpg" height="750" width="750" class="d-block w-100" alt="..."></a>
+            </div>
+          </div>
+        </a>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <h2>PROMOÇÕES</h2>
+      </div>
+      <!--LADO DIREITO, PRODUTOS-->
+      <div class="ld-direito">
+        <h2>PRODUTOS</h2>
+        <img src="img/produtos/racao.jpg" alt=""><a href=""></a></img>
+        <img src="img/produtos/catfood.png" alt=""><a href=""></a></img>
+
+        <div id="cont" class="contatos">
+          <p>Nossos Contactos:</p>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-whatsapp"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+        <a href="https://www.google.com/maps/place/CESAE+-+Centro+de+Servi%C3%A7os+e+Apoio+%C3%A0s+Empresas/@41.1585147,-8.6515179,17z/data=!4m5!3m4!1s0xd246582df7d8785:0xc967e42932cd22b4!8m2!3d41.1585107!4d-8.6502623" >
+        <img class="w-100 h-auto"src="img/morada.png" alt="Morada" title="Morada"></a>
+      </div>
+    </main>

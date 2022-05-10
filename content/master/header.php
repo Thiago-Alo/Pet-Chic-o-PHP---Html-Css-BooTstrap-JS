@@ -1,4 +1,3 @@
-<body> 
 <header>
         <img  src="img/logojunto-removebg-preview.png" alt="Logo Pet Chicão" title="Pet Chicão"> 
         
@@ -10,13 +9,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="home.php">Página inicial</a>
+                  <a class="nav-link active" aria-current="page" href="home.php?p=inicio">Página inicial</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="produtos.php">Produtos</a>
+                  <a class="nav-link" href="home.php?p=produtos">Produtos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contactos.php">Contactos</a>
+                  <a class="nav-link" href="home.php?p=contactos">Contactos</a>
                 </li>
               </ul>
               <form class="d-flex">
@@ -53,4 +52,3 @@
           </div>
         </nav>
     </header>
-    <main class="main row">

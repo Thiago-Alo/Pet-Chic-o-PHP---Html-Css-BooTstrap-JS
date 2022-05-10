@@ -1,6 +1,7 @@
-<!--div.row>div.col*6-->
+<main>
+      <!--div.row>div.col*6-->
 
-<div class="row">
+      <div class="row">
         <div class="newcard">
           <div class="circle">
               <img class="logo" src="img/comida_logo-removebg-preview.png" >

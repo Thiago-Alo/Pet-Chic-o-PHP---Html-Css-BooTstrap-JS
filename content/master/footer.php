@@ -1,4 +1,4 @@
-</main>
+<!--FOOTER, PARCEIROS-->
 <footer class="row">
       <div class="footim col-7 col-sm-12 col-md-12 col-lg-12">
         <div class="parceiros cursor">
