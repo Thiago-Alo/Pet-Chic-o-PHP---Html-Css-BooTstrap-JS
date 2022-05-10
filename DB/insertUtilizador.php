@@ -11,16 +11,16 @@ $email = $_POST['email'];
 $pass = $_POST['pass'];
 $pass2 = $_POST['pass2'];
 
-if(empty($user) || empty($pass) || empty($pass2) || $pass!=$pass2){
-    header('Location:../index.php?p=registo&res=passnaocorresponde');
+if(empty($user) || empty($email) || empty($pass) || empty($pass2) || $pass!=$pass2){
+    header('Location:../index.php');
     exit();
 }
-$sql = "INSERT INTO utilizador VALUES('$user','$email','$pass');";
+$sql = "INSERT INTO utilizador VALUES('$email','$user','$pass',2);";
 
 if ($conn->query($sql) === TRUE) {
-    header('Location:../index.php?p=login&res=registook');
+    header('Location:login.php');
 } else {
-    header('Location:../index.php?p=registo&res=erro');
+    header('Location:../index.php?&res=erro');
 }
 
 $conn->close();

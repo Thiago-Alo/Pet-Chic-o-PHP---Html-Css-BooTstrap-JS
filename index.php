@@ -20,7 +20,7 @@
                 <span class="title">Login</span>
                 <form action="db/login.php" method="post">
                     <div class="input-field">
-                        <input type="text" name="username" placeholder="Enter your username" required autofocus>
+                        <input type="email" name="email" placeholder="Enter your email" required autofocus>
                         <i class="uil uil-envelope"></i>
                     </div>
                     <div class="input-field">
@@ -37,7 +37,7 @@
                         <a href="#" class="text">Forgot password?</a>
                     </div>  
                     <div class="input-field button-log">
-                        <a href="home.php?p=inicio"> <input type="button" value="Login"></a>
+                        <button type="submit" >Login</button>
                     </div>
                 </form>
 
@@ -79,7 +79,7 @@
                       
                     <div class="login-signup"></div>
                         <div class="input-field button-log">
-                            <input type="button" value="Register" class="text login-link">
+                            <button type="submit">Register</button>
                         </div>
                     </div> 
                 
@@ -87,11 +87,11 @@
                     <?php
                         if(isset($_GET['res'])){
                             if($_GET['res'] == 'erro')
-                                echo '<div class="alert alert-danger" role="alert">Username já existe</div>';
+                                echo '<div class="alert alert-danger" role="alert">Username already exist</div>';
                             else if($_GET['res'] == 'invalido')
-                            echo '<div class="alert alert-danger" role="alert">Erro ao visualizar a página</div>';
+                            echo '<div class="alert alert-danger" role="alert">Error viewing the page</div>';
                             else if($_GET['res'] == 'passnaocorresponde')
-                                echo '<div class="alert alert-warning" role="alert">As password são diferentes</div>';
+                                echo '<div class="alert alert-warning" role="alert">The passwords are different</div>';
                         }
                     ?>
                 <!--<div class="login-signup">

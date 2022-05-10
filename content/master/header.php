@@ -18,7 +18,7 @@
                   <a class="nav-link" href="home.php?p=contactos">Contactos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="index.php">Logout</a>
+                  <a class="nav-link" href="db/logout.php">Logout</a>
                 </li>
               </ul>
               <form class="d-flex">

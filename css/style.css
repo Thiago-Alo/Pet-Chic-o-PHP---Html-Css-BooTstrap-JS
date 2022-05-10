@@ -9,6 +9,7 @@
 body{
     cursor: url('/img/cursor/cursospatapq1.png'), auto;
     font-family: 'Lora', serif;
+    width: 100vh;
 }
 /*INDEX GATINHO FDP*/
 #bgato{
@@ -235,12 +236,10 @@ h5{
 .carousel-inner a:hover{
     cursor: pointer;
 }
-.carousel-control-prev:hover{
-    cursor:progress;
+.carousel-control:hover{
+    cursor:pointer;
 }
-.carousel-control-next:hover{
-    cursor: url('img/cursor/catpawpq-removebg-preview.png'), auto;
-}
+
 /*LADO DIREITO - PRODUTOS*/
 .ld-direito{
     width: 20%;
@@ -263,7 +262,7 @@ h5{
     background-color: transparent;
 }
 .ld-direito img, .ld-direito i{
-    cursor: url('img/cursor/cursospatapq.png'), auto;
+    cursor:pointer;
 }
 #cont a{
     text-decoration: none;
@@ -285,13 +284,12 @@ footer{
     margin-left: auto;
     margin-right: auto;
 }
-footer img{
-    
+footer img{ 
     padding: 10px;
     height: 100px;
 }
 footer img:hover{
-    cursor:url('img/cursor/cursospatapq.png'), auto;
+    cursor:pointer;
 }
 /*PÁGINA - PRODUTOS*/
 .card-title{
@@ -326,5 +324,5 @@ footer img:hover{
     color: aliceblue;
     font-size: 15px;
     text-shadow: 2px 2px 5px aliceblue;
-    cursor: url('img/cursor/cursospatapq.png'), auto;
+    cursor:pointer;
 }
