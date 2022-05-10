@@ -80,6 +80,7 @@
                     <div class="login-signup"></div>
                         <div class="input-field button-log">
                             <button type="submit">Register</button>
+                            <a href="#" class="text login-link">Login</a>
                         </div>
                     </div> 
                 
@@ -104,7 +105,7 @@
     
     
 
-    <script src="js/form.js"></script>
+    <script src="js/login.js"></script>
     
 
     
