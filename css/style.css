@@ -233,10 +233,10 @@ h5{
     margin-top:15px;
 }
 .carousel-inner a:hover{
-    cursor: url('img/cursor/cursospatapq.png'), auto;
+    cursor: pointer;
 }
 .carousel-control-prev:hover{
-    cursor: url('img/cursor/catpawpq-removebg-preview.png'), auto;
+    cursor:progress;
 }
 .carousel-control-next:hover{
     cursor: url('img/cursor/catpawpq-removebg-preview.png'), auto;

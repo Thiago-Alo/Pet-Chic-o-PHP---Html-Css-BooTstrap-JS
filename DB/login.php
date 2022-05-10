@@ -18,7 +18,7 @@ if ($result->num_rows == 1) {
 
     header('Location:../index.php?p=inicio');
 } else {
-    header('Location:../index.php?p=login');
+    header('Location:../index.php?p=index');
 }
 $conn->close();
 ?>

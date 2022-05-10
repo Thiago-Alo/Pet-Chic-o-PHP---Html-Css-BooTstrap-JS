@@ -11,8 +11,8 @@ if($_SERVER['REQUEST_METHOD']=='GET'){
             include('content/pages/contactos.php');
         else if($p=="registro")
             include('content/contactos/registro.php');
-        else if($p=="login")
-            include('content/contactos/login.php');
+        else if($p=="index")
+            include('index.php');
     }
     else
         include('index.php');

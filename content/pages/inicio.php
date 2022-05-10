@@ -6,7 +6,7 @@
           <a href="produtos.html">
           <ol>
             <li>
-              <div class="pai"><a href="produtos.html"><i class="fa-solid fa-dog"><h5>Cães</h5>
+              <div class="pai"><a href="home.php?p=produtos"><i class="fa-solid fa-dog"><h5>Cães</h5>
                 <div class="filho"><img src="img/Fotos vets/gifcao2.gif" alt="Dog" title="                Dogs"></div>
                 </i>
               </div>
