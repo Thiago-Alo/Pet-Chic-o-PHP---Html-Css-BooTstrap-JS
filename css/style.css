@@ -7,7 +7,7 @@
     --cadet:#041E1B;
 }
 body{
-    cursor: url('/img/cursospatapq1.png'), auto;
+    cursor: url('/img/cursor/cursospatapq1.png'), auto;
     font-family: 'Lora', serif;
 }
 /*INDEX GATINHO FDP*/
@@ -60,14 +60,14 @@ form>input{
     width: 20%;
 }
 .btnverm:hover{
-    cursor:url('/img/cursorfaca.png'), auto;
+    cursor:url('img/cursor/faca.png'), auto;
     background: url("/img/gifcao1.gif");
     background-repeat: no-repeat;
     background-size:cover;
     height: 200px;
 }
 .btnverd:hover{
-    cursor: url('/img/catpawpq-removebg-preview.png'), auto;
+    cursor: url('img/cursor/catpawpq-removebg-preview.png'), auto;
 }
 .btnverd{
     background-color: var(--cadet);
@@ -102,7 +102,7 @@ header{
 .btn-fa-solid:hover{
     background-color: aliceblue;
     color: var(--cadet);
-    cursor: url('/img/cursormoney.png'), auto;
+    cursor: url('img/cursor/cursormoney.png'), auto;
 }
 h1{
     color:white;
@@ -121,7 +121,7 @@ header img{
     padding:5px;
 }
 .nav-link:hover{
-    cursor: url('img/cursospatapq.png'), auto;
+    cursor: url('img/cursor/cursospatapq.png'), auto;
 }
 .btn{
     background-color: aliceblue;
@@ -130,7 +130,7 @@ header img{
     font-size:18px;
 }
 .btn:hover{
-    cursor: url('img/cursospatapq.png'), auto;
+    cursor: url('img/cursor/cursospatapq.png'), auto;
     background-color: var(--corlogo);
     color:aliceblue;
 }
@@ -188,21 +188,21 @@ h5{
 
 .filho:hover{
     opacity:1;
-    cursor: url('img/cursospatapq.png'), auto;
+    cursor: url('img/cursor/cursospatapq.png'), auto;
 }
 .animais>ol>li>img:hover{
-    cursor: url('img/cursospatapq.png'), auto;
+    cursor: url('img/cursor/cursospatapq.png'), auto;
 }
 .animais h5:hover{
-    cursor: url('img/cursospatapq.png'), auto;
+    cursor: url('img/cursor/cursospatapq.png'), auto;
 }
 .animais>ol>li>i:hover{
-    cursor: url('img/cursospatapq.png'), auto;
+    cursor: url('img/cursor/cursospatapq.png'), auto;
 }
 .dicas{
     width: 100%;
     box-shadow: 1px 1px 15px white;
-    cursor: url('img/cursospatapq.png'), auto;
+    cursor: url('img/cursor/cursospatapq.png'), auto;
     margin-left:5px;
 }
 .dicas p{
@@ -233,13 +233,13 @@ h5{
     margin-top:15px;
 }
 .carousel-inner a:hover{
-    cursor: url('img/cursospatapq.png'), auto;
+    cursor: url('img/cursor/cursospatapq.png'), auto;
 }
 .carousel-control-prev:hover{
-    cursor: url('img/catpawpq-removebg-preview.png'), auto;
+    cursor: url('img/cursor/catpawpq-removebg-preview.png'), auto;
 }
 .carousel-control-next:hover{
-    cursor: url('img/catpawpq-removebg-preview.png'), auto;
+    cursor: url('img/cursor/catpawpq-removebg-preview.png'), auto;
 }
 /*LADO DIREITO - PRODUTOS*/
 .ld-direito{
@@ -263,7 +263,11 @@ h5{
     background-color: transparent;
 }
 .ld-direito img, .ld-direito i{
-    cursor: url('img/cursospatapq.png'), auto;
+    cursor: url('img/cursor/cursospatapq.png'), auto;
+}
+#cont a{
+    text-decoration: none;
+    color:aliceblue;
 }
 /*FOOTER - PARCEIROS*/
 footer{
@@ -287,7 +291,7 @@ footer img{
     height: 100px;
 }
 footer img:hover{
-    cursor:url('img/cursospatapq.png'), auto;
+    cursor:url('img/cursor/cursospatapq.png'), auto;
 }
 /*PÁGINA - PRODUTOS*/
 .card-title{
@@ -322,5 +326,5 @@ footer img:hover{
     color: aliceblue;
     font-size: 15px;
     text-shadow: 2px 2px 5px aliceblue;
-    cursor: url('img/cursospatapq.png'), auto;
+    cursor: url('img/cursor/cursospatapq.png'), auto;
 }
