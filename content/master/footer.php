@@ -1,6 +1,6 @@
 <!--FOOTER, PARCEIROS-->
 <footer class="row">
-      <div class="footim col-7 col-sm-12 col-md-12 col-lg-12">
+      <div class="footim col-12 col-4 ">
         <div class="parceiros cursor">
           <h3>Nossos parceiros:</h3>
           <img src="img/parceiros/adopte.png" alt="Adopte title="Adopte"><a href="https://www.adopta-me.org/"></a></img>

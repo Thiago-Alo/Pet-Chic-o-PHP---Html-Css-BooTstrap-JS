@@ -120,7 +120,7 @@
 /* make responsive */
 @media (max-width: 973px){
     .newcard{
-        width:280px;;
+        width:280px;
         height: 200px;
         max-width:350px;
         align-items:flex-start;

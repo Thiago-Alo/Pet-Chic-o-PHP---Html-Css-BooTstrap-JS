@@ -9,7 +9,7 @@
 body{
     cursor: url('/img/cursor/cursospatapq1.png'), auto;
     font-family: 'Lora', serif;
-    width: 100vh;
+    
 }
 /*INDEX GATINHO FDP*/
 #bgato{
@@ -85,7 +85,7 @@ form>input{
     font-weight: bold;
     border-radius:5px;
 }
-/*INDEX GATINHO FDP*/
+/*INDEX GATINHO*/
 body p{
     text-align: justify;
 }
@@ -180,6 +180,12 @@ h5{
     left:0px;
     opacity:1;
 }
+.pai{
+    position:relative; 
+    top:0px; 
+    left:0px;
+    opacity:1;
+}
 .filho{
     position:absolute; 
     top:0px; 
@@ -217,6 +223,9 @@ h5{
 }
 
 /*MEIO - PROMOÇÕES*/
+.centro{
+    background-color: blue;
+}
 .meio{
     width:60%;
     text-align: center;
