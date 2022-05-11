@@ -9,32 +9,7 @@
 body{
     cursor: url('/img/cursor/cursospatapq1.png'), auto;
     font-family: 'Lora', serif;
-    
 }
-/*INDEX GATINHO FDP*/
-#bgato{
-    background: url("/img/cachorro-humano-07.webp");
-    background-repeat: no-repeat;
-    background-size:cover;
-    height: 100%;
-    background-position:center;
-}
-.gatinho{
-    height: 1000px;
-}
-/*.pai-vizinho{
-    position:relative; 
-    top:0px; 
-    left:0px;
-    z-index: 0;
-}
-.primo{
-    position:absolute; 
-    top:200px; 
-    right: 400px;
-    text-align: center;
-    z-index: 1;
-}*/
 fieldset{
     position: sticky;
     top:40%;
@@ -59,31 +34,6 @@ form{
 }
 form>input{
     width: 20%;
-}
-.btnverm:hover{
-    cursor:url('img/cursor/faca.png'), auto;
-    background: url("/img/gifcao1.gif");
-    background-repeat: no-repeat;
-    background-size:cover;
-    height: 200px;
-}
-.btnverd:hover{
-    cursor: url('img/cursor/catpawpq-removebg-preview.png'), auto;
-}
-.btnverd{
-    background-color: var(--cadet);
-    width: 200px;
-    color:aliceblue;
-    font-weight: bold;
-    border-radius:5px;
-    margin-right: 5px;
-}
-.btnverm{
-    background-color:var(--corlogo);
-    width: 220px;
-    color:aliceblue;
-    font-weight: bold;
-    border-radius:5px;
 }
 /*INDEX GATINHO*/
 body p{
@@ -143,140 +93,7 @@ header img{
 .main{
     width: auto;
 }
-/*LADO ESQUERDO - ANIMAIS E CUIDADOS*/
-.ld-esquerdo{
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-around;
-    background-color: var(--cadet);
-}
-.animais i{
-    font-size:30px;
-    padding:4px;
-    color:aliceblue;
-}
-.animais img{
-    height:40px;
-    font-size:40px;
-    border-radius: 40%;
-}
-ol{
-    list-style: none;
-}
-.animais a{
-    text-decoration:none;
-}
-h5{
-    font-size:20px;
-    font-family: 'Lora', serif;
-    font-weight: 700;
-    color:aliceblue;
-}
-.pai{
-    position:relative; 
-    top:0px; 
-    left:0px;
-    opacity:1;
-}
-.pai{
-    position:relative; 
-    top:0px; 
-    left:0px;
-    opacity:1;
-}
-.filho{
-    position:absolute; 
-    top:0px; 
-    right:75px;
-    opacity:0;
-}
 
-.filho:hover{
-    opacity:1;
-    cursor: url('img/cursor/cursospatapq.png'), auto;
-}
-.animais>ol>li>img:hover{
-    cursor: url('img/cursor/cursospatapq.png'), auto;
-}
-.animais h5:hover{
-    cursor: url('img/cursor/cursospatapq.png'), auto;
-}
-.animais>ol>li>i:hover{
-    cursor: url('img/cursor/cursospatapq.png'), auto;
-}
-.dicas{
-    width: 100%;
-    box-shadow: 1px 1px 15px white;
-    cursor: url('img/cursor/cursospatapq.png'), auto;
-    margin-left:5px;
-}
-.dicas p{
-    text-align: justify;
-    height: 100%;
-    font-weight:600;
-    font-family: 'Lora', serif;
-}
-.card{
-    height:400px;
-}
-
-/*MEIO - PROMOÇÕES*/
-.centro{
-    background-color: blue;
-}
-.meio{
-    width:60%;
-    text-align: center;
-    background-color: var(--cadet);
-}
-.meio h2{
-    font-weight:900;
-    font-size:40px;
-    color: rgb(255, 255, 255);
-    margin-top:20px;
-}
-.radios{
-    box-shadow: 1px 1px 15px white;
-    border-radius:20%;
-    margin-top:15px;
-}
-.carousel-inner a:hover{
-    cursor: pointer;
-}
-.carousel-control:hover{
-    cursor:pointer;
-}
-
-/*LADO DIREITO - PRODUTOS*/
-.ld-direito{
-    width: 20%;
-    background-color: var(--cadet);
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content:space-evenly ;
-    color: aliceblue;
-    font-weight:900;
-    font-size:20px;
-    color: rgb(255, 255, 255);
-}
-.ld-direito img{
-    width: 90%;
-    margin:5px;
-    background-color: white;
-    border-radius: 15%;
-    background-color: transparent;
-}
-.ld-direito img, .ld-direito i{
-    cursor:pointer;
-}
-#cont a{
-    text-decoration: none;
-    color:aliceblue;
-}
 /*FOOTER - PARCEIROS*/
 footer{
     text-align: center;
@@ -298,40 +115,5 @@ footer img{
     height: 100px;
 }
 footer img:hover{
-    cursor:pointer;
-}
-/*PÁGINA - PRODUTOS*/
-.card-title{
-    color:var(--cadet);
-}
-#container-produtos{
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--cadet);
-    padding:5px;
-    box-shadow: 1px 2px 15px grey;
-}
-.produtos{
-    height:62%;
-
-}
-.badge{
-    margin-left:10px;
-    padding-bottom: 20px;
-    height: 20px; 
-}
-.btn-prod{
-    text-decoration: none;
-    margin: 5px;
-    padding:10px;
-    width: 20px;
-    border-radius: 20px;
-    color: aliceblue;
-    background-image: linear-gradient(to left,var(--cadet),var(--corlogo),var(--cadet));
-}
-.btn-prod:hover{
-    color: aliceblue;
-    font-size: 15px;
-    text-shadow: 2px 2px 5px aliceblue;
     cursor:pointer;
 }

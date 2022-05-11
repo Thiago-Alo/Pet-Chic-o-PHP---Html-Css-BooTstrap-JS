@@ -25,24 +25,25 @@
 
         </div>
         <div class="cont-right">
-            <h2>PRODUTOS</h2> 
-                <div class="vertical-cards">
-                    <img class="imgZero"src="img/Fotos vets/gifcat1.gif" alt="">
-                    <p>Cats</p>
-                </div>
-                <div class="vertical-cards">
-                    <img class="imgZero" src="img/Fotos vets/gifcao2.gif" alt="">
-                    <p>Dogs</p>
-                </div>
-                <div class="vertical-cards">
-                    <img class="imgZero" src="img/Fotos vets/gifturtle1.gif" alt="">
-                    <p>Turtles</p>
-                </div>
-                <div class="vertical-cards">
-                    <img class="imgZero" src="img/Fotos vets/gifroedor1.gif" alt="">
-                    <p>Rodents</p>
-                </div>
-                
+            <h2>PRODUTOS</h2>
+            <div class="vertical-cards">
+                <img class="imgZero"src="img/Fotos vets/gifcat1.gif" alt="">
+                <p>Cats</p>
+            </div>
+            <div class="vertical-cards">
+                <img class="imgZero" src="img/Fotos vets/gifcao2.gif" alt="">
+                <p>Dogs</p>
+            </div>
+            <div class="vertical-cards">
+                <img class="imgZero" src="img/Fotos vets/gifturtle1.gif" alt="">
+                <p>Turtles</p>
+            </div>
+            <div class="vertical-cards">
+                <img class="imgZero" src="img/Fotos vets/gifroedor1.gif" alt="">
+                <p>Rodents</p>
+            </div>
+        </div>   
+            
                 <!--<a href="home.php?p=produtos"><img src="img/produtos/racao.jpg" alt=""></img></a>
                 <a href="home.php?p=produtos"><img src="img/produtos/catfood.jpg" alt=""></img></a>
  
@@ -52,5 +53,5 @@
                         <a href="home.php?p=contactos"><i class="fab fa-whatsapp"></i></a>
                         <a href="home.php?p=contactos"><i class="fab fa-instagram"></i></a>-->
     
-        </div>
+       
     </div>

@@ -8,9 +8,9 @@
     <title>Pet Chicão</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/faviconlogo.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/stylestart.css">    
+    <link rel="stylesheet" href="css/stylestart.css"> 
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/stylecontactos.css">
     <link rel="stylesheet" href="css/stylecards.css">  
+    <link rel="stylesheet" href="css/stylecontactos.css">   
 </head>
-<body >
+<body>
