@@ -28,18 +28,22 @@
             <h2>PRODUTOS</h2>
             <div class="vertical-cards">
                 <img class="imgZero"src="img/Fotos vets/gifcat1.gif" alt="">
+                <a class="nav-link" href="home.php?p=produtos"></a>
                 <p>Cats</p>
             </div>
             <div class="vertical-cards">
                 <img class="imgZero" src="img/Fotos vets/gifcao2.gif" alt="">
+                <a class="nav-link" href="home.php?p=produtos"></a>
                 <p>Dogs</p>
             </div>
             <div class="vertical-cards">
                 <img class="imgZero" src="img/Fotos vets/gifturtle1.gif" alt="">
+                <a class="nav-link" href="home.php?p=produtos"></a>
                 <p>Turtles</p>
             </div>
             <div class="vertical-cards">
                 <img class="imgZero" src="img/Fotos vets/gifroedor1.gif" alt="">
+                <a class="nav-link" href="home.php?p=produtos"></a>
                 <p>Rodents</p>
             </div>
         </div>   

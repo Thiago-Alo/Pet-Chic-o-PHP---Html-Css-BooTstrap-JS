@@ -12,14 +12,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #4070f4;
+    background-color: #041E1B;
 }
 .container{
     position:relative;
     max-width: 430px;
     width: 80%;
-    background: #fff;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    
+    box-shadow: 0 0 15px rgba(8, 212, 161, 0.5);
     border-radius: 15px;
     overflow: hidden;
 }
@@ -34,7 +34,7 @@ body{
 .container .form{
     width:50%;
     padding:10px;
-    background: #fff;
+    background: #ffffff;
     transition: margin-left 0.18s ease;
     
 }
@@ -66,7 +66,7 @@ body{
     bottom:0;
     height:3px;
     width:30px;
-    background-color:#4070f4;
+    background-color:#041E1B;
     border-radius:25px;
 }
 .form .input-field{
@@ -89,7 +89,7 @@ body{
     transition:all 1s ease;
 }
 .input-field input:is(:focus){
-    border-bottom-color: #4070f4;
+    border-bottom-color: #041E1B;
 }
 .input-field i{
     position:absolute;
@@ -119,12 +119,12 @@ body{
     accent-color: green;
 }
 .form .text{
-    color:#333;
+    color:rgb(0, 0, 0);
     font-size:14px;
     margin-right:15px;
 }
 .form a.text{
-    color: #4070f4;
+    color: #000000;
     text-decoration: none;
 }
 .form a:hover{
@@ -132,17 +132,19 @@ body{
 }
 .form .button-log{
     margin-top: 25px;
-    width:50%;
+    width: 80%;
     margin-left: 25%;
 }
  .button-log button{
+    padding: 7px;
+    width: 90px;
     border:none;
     color:aliceblue;
     letter-spacing: 5px;
     font-size:17px;
     font-weight: 600;
-    border-radius:10px;
-    background-color: #4070f4;
+    border-radius:200px;
+    background-color: #0d864e;
     cursor: pointer;
     transition: all 0.5s ease;
 }
