@@ -43,7 +43,6 @@
                 <p>Rodents</p>
             </div>
         </div>   
-            
                 <!--<a href="home.php?p=produtos"><img src="img/produtos/racao.jpg" alt=""></img></a>
                 <a href="home.php?p=produtos"><img src="img/produtos/catfood.jpg" alt=""></img></a>
  
@@ -53,5 +52,17 @@
                         <a href="home.php?p=contactos"><i class="fab fa-whatsapp"></i></a>
                         <a href="home.php?p=contactos"><i class="fab fa-instagram"></i></a>-->
     
-       
     </div>
+    <section class="container-accordion">   
+        <div class="accordion">
+            <div class="accordion-content">
+                <div>
+                    <span class="title">General care for your pet</span>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <p class="description">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsam repellat accusamus quam ipsum voluptates quasi repudi
+                </p>
+            </div>
+        </div>
+    </section>

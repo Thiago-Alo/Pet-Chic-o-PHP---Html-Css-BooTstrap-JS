@@ -7,7 +7,7 @@
     --cadet:#041E1B;
 }
 body{
-    cursor: url('/img/cursor/cursospatapq1.png'), auto;
+    cursor:url("/img/cursor/cursospatapq1.png"), auto;
     font-family: 'Lora', serif;
 }
 fieldset{
