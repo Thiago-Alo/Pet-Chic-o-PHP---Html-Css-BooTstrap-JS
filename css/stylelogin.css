@@ -135,7 +135,7 @@ body{
     width:50%;
     margin-left: 25%;
 }
-.form .button-log input{
+ .button-log button{
     border:none;
     color:aliceblue;
     letter-spacing: 5px;
@@ -153,4 +153,6 @@ body{
     margin-top: 15px;
     text-align: center;
 }
+
+
 

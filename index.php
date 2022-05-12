@@ -37,7 +37,7 @@
                         <a href="#" class="text">Forgot password?</a>
                     </div>  
                     <div class="input-field button-log">
-                        <button type="submit" >Login</button>
+                        <button class="btn-jumbo" type="submit" >Login</button>
                     </div>
                 </form>
 

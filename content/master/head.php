@@ -12,5 +12,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/stylecards.css">  
     <link rel="stylesheet" href="css/stylecontactos.css">   
+    <link rel="stylesheet" href="css/styleaccord.css">
 </head>
 <body>

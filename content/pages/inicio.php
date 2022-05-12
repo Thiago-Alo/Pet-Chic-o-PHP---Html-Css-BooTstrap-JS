@@ -53,16 +53,28 @@
                         <a href="home.php?p=contactos"><i class="fab fa-instagram"></i></a>-->
     
     </div>
-    <section class="container-accordion">   
-        <div class="accordion">
-            <div class="accordion-content">
-                <div>
-                    <span class="title">General care for your pet</span>
+    <div class="cont-accord">   
+        <div class="vet-accordion">
+            <div id="hidden" class="vet-accordion-content">
+                <div class="info" onclick="hiddenText()">
+                    <span class="vet-title">General care for your pet</span>
                     <i class="fa-solid fa-plus"></i>
                 </div>
-                <p class="description">
+                <p class="vet-description">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsam repellat accusamus quam ipsum voluptates quasi repudi
                 </p>
             </div>
+            <div id="hidden" class="vet-accordion-content">
+                <div class="info" onclick="hiddenText()">
+                    <span class="vet-title">General care for your pet</span>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <p class="vet-description">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ipsam repellat accusamus quam ipsum voluptates quasi repudi
+                </p>
+            </div>
+            
         </div>
-    </section>
+    </div>
+    
+    <script src="js/tips.js"></script>

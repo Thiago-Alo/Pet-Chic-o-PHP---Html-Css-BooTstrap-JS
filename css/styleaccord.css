@@ -1,0 +1,50 @@
+.cont-accord{
+    height:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #041E1B;
+}
+.vet-accordion{
+    max-width: 530px;
+    width: 100%;
+    background:aliceblue;
+    margin: 0 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 18px rgba(74, 209, 146, 0.651) ;
+}
+.vet-accordion-content{
+    background: #fff7f0;
+    height: 50px;
+    margin: 10px 0;
+    border: 1px solid #ffd6b3;
+    border-radius: 4px;
+    overflow:hidden;
+}
+.vet-accordion-content .info{
+    display:flex;
+    padding: 0 15px;
+    min-height: 50px;
+    cursor:pointer;
+    background-color: #fff7f0;
+    align-items: center;
+    justify-content: space-between;
+}
+.vet-accordion-content .info .vet-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+.vet-accordion-content .info i{
+    font-size:14px;
+    color: #333;
+}
+.vet-accordion-content .vet-description{
+    height: 0px;
+    font-size: 16px;
+    color: #333;
+    font-weight: 300;
+    padding: 0 15px;
+    transition:all 0.5s linear;
+}

@@ -59,6 +59,7 @@ input, textarea{
     height: 100%;
 }
 
+
 @media screen and (max-width:690px){
     .tiara{
         align-items: center;
