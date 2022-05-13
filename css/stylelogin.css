@@ -14,21 +14,31 @@ body{
     justify-content: center;
     background-color: #041E1B;
 }
+.big-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-dog{
+    border-radius:20%;
+    height: 295px;
+}
 .container{
     position:relative;
     max-width: 430px;
     width: 80%;
-    
     box-shadow: 0 0 15px rgba(8, 212, 161, 0.5);
     border-radius: 15px;
     overflow: hidden;
+    margin-right:-12px;
+    margin-left: -19%;
 }
 .container .forms{
     display: flex;
     align-items: center;
     height:360px;
     width: 200%;
-    transition: height 0.2s ease;
+    transition: height 0.2s ease;  
 }
 
 .container .form{
@@ -156,5 +166,9 @@ body{
     text-align: center;
 }
 
-
+@media screen and (max-width: 700px) {
+    .login-dog{
+        display:none;
+    }
+}
 

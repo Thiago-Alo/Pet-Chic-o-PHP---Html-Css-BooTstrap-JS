@@ -1,21 +1,21 @@
 
 function hiddenText(){
-let vetAccordionContent = document.querySelectorAll(".vet-accordion-content");
-let size = 50
-let sizemax = 150
+    let vetAccordionContent = document.querySelectorAll(".vet-accordion-content");
+    let size = 50
+    let sizemax = 150
 
-vetAccordionContent.forEach((item, ) => {
-    let title = item.querySelector(".info");
-    title.addEventListener("click", () => {
-        item.classList.toggle("open");
-       
-        if(item.classList.contains("open")){
-            document.getElementById('hidden').style.height = sizemax+"px"
-        }else{
-            document.getElementById('hidden').style.height = size+"px"
-        }
+    vetAccordionContent.forEach((item) => {
+        let title = item.querySelector(".info");
+        title.addEventListener("click", () => {
+            item.classList.toggle("open");
+        
+            if(item.classList.contains("open")){
+                document.getElementById('hidden').style.height = sizemax+"px"
+            }else{
+                document.getElementById('hidden').style.height = size+"px"
+            }
+        })
     })
-})
 }
 
 

@@ -6,14 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/stylelogin.css">
+    
     <title>Pet Chicão</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/faviconlogo.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="css/stylelogin.css">
 </head>
 <body>
-    
+    <div class="big-cont">
+    <div>
+        <img class="login-dog" src="img/login-removebg-preview.png" alt="">
+    </div>
     <div class="container">
         <div class="forms">
             <div class="form login">
@@ -46,12 +50,13 @@
                     <a href="#" class="text signup-link">Register now</a>
                 </div>
             </div>
-            <?php
+        
+            <!--<?php
                 if(isset($_GET['res'])){
                     if($_GET['res'] == 'registook')
                         echo '<div class="alert alert-success" role="alert">Registo efetuado com sucesso</div>';
                 }
-            ?>
+            ?>-->
 
     
             <!--REGISTRATION-->
@@ -85,7 +90,7 @@
                     </div> 
                 
                     </form>
-                    <?php
+                    <!--<?php
                         if(isset($_GET['res'])){
                             if($_GET['res'] == 'erro')
                                 echo '<div class="alert alert-danger" role="alert">Username already exist</div>';
@@ -95,14 +100,18 @@
                                 echo '<div class="alert alert-warning" role="alert">The passwords are different</div>';
                         }
                     ?>
-                <!--<div class="login-signup">
+                <div class="login-signup">
                     <span class="ext">Don't have register?</span>
                     <a href="#" class="text login-link">Login</a>
                 </div>-->
             </div>
         </div>
+        <div>
+            <img class="login-dog" src="img/accord-removebg-preview.png" alt="">
+        </div>
     </div>
     
+    </div>
     
 
     <script src="js/login.js"></script>
