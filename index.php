@@ -19,6 +19,7 @@
         <img class="login-dog" src="img/login-removebg-preview.png" alt="">
     </div>
     <div class="container">
+    <img class="logoform" src="img/logojunto-removebg-preview.png" alt="">
         <div class="forms">
             <div class="form login">
                 <span class="title">Login</span>

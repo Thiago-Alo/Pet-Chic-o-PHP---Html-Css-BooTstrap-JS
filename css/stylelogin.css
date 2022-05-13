@@ -14,6 +14,10 @@ body{
     justify-content: center;
     background-color: #041E1B;
 }
+.logoform{
+    margin-left: auto;
+    margin-right: auto;
+}
 .big-cont{
     display: flex;
     align-items: center;
