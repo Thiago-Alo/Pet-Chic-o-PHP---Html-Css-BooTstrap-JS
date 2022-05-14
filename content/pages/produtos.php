@@ -28,15 +28,15 @@
       </div>
       <div class="newcard">
           <div class="circle">
-              <img class="logo" src="img/comida_logo-removebg-preview.png" >
+              <img class="logo" src="img/produtos/produto-removebg-preview.png" >
           </div>
           <div class="content">
               <h2>Nome ração</h2>
               <p>descrição raçao</p>
-              <p>&euro;39,90</p>
+              <p>&euro;19,90</p>
               <a href="#">Já pro carrinho</a>
           </div>
-          <img class="product_img" src="img/cachorro_racao.jpg-removebg-preview.png" alt="">
+          <img class="product_img" src="img/card2-removebg-preview.png" alt="">
         </div>
         
       </div>

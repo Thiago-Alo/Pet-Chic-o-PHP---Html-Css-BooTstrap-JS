@@ -69,8 +69,8 @@
                 </p>
             </div>
             <div id="hidden" class="vet-accordion-content">
-                <div class="info" onclick="hiddenText()">
-                    <span class="vet-title">General care for your pet</span>
+                <div class="info" >
+                    <span onclick="hiddenText()" class="vet-title">General care for your pet</span>
                     <i class="fa-solid fa-plus"></i>
                 </div>
                 <p class="vet-description">

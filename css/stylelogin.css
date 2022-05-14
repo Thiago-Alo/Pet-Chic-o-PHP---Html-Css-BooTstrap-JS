@@ -169,6 +169,9 @@ body{
     margin-top: 15px;
     text-align: center;
 }
+.open{
+    height:150px;
+}
 
 @media screen and (max-width: 700px) {
     .login-dog{

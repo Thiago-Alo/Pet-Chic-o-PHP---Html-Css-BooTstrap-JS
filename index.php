@@ -86,8 +86,8 @@
                     <div class="login-signup"></div>
                         <div class="input-field button-log">
                             <button type="submit">Register</button>
-                            <a href="#" class="text login-link">Login</a>
                         </div>
+                        <a href="#" class="text login-link" style="text-align: center;">Login</a>
                     </div> 
                 
                     </form>
