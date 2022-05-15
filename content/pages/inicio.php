@@ -61,7 +61,7 @@
         <div class="vet-accordion">
             <div id="hidden" class="vet-accordion-content">
                 <div class="info" onclick="hiddenText()">
-                    <span class="vet-title">General care for your pet</span>
+                    <span class="vet-title">Tips for small animals</span>
                     <i class="fa-solid fa-plus"></i>
                 </div>
                 <p class="vet-description">
@@ -70,7 +70,7 @@
             </div>
             <div id="hidden" class="vet-accordion-content">
                 <div class="info" >
-                    <span onclick="hiddenText()" class="vet-title">General care for your pet</span>
+                    <span onclick="hiddenText()" class="vet-title">Dr. Justino small animal specialist</span>
                     <i class="fa-solid fa-plus"></i>
                 </div>
                 <p class="vet-description">
@@ -79,6 +79,7 @@
             </div>
             
         </div>
+        
     </div>
     
     <script src="js/tips.js"></script>

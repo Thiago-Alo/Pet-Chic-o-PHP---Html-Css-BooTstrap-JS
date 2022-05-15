@@ -9,13 +9,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="home.php?p=inicio">Página inicial</a>
+                  <a class="nav-link active" aria-current="page" href="home.php?p=inicio">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="home.php?p=produtos">Produtos</a>
+                  <a class="nav-link" href="home.php?p=produtos">Products</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="home.php?p=contactos" >Contactos</a>
+                  <a class="nav-link" href="home.php?p=contactos" >Contacts</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="db/logout.php" >Logout</a>
